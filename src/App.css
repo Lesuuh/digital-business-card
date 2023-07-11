@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: #0f0f13;
+}
+
+.container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+section{
+  max-width: 400px;
+  background: #1A1B21;
+
+}
+main{
+  color: #fff;
+  padding: 10px 20px;
+}
+
+main h2, .role{
+  text-align: center;
+} 
+
+.role{
+   color: #e4a023;
+}
+
+img{
+  border-radius: 5px 5px 0 0;
+  width: 400px;
+
+}
+
+.btns{
+  margin-block: 20px;
+  margin-inline: 40px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+button{
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  font-size: 1rem;
+
+}
+
+.btn2{
+  background: #5093E2;
+  color: #fff;
+}
+
+.details{
+  margin-block: 30px;
+}
+
+
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row;
+  align-items: center;
+  height: 50px;
+  background: #131318;
+}
+ footer a{
+  text-decoration: none;
+  color: #fff;
+ }
+
+.footer--icon{
+  font-size: 2rem;
+  
+}
